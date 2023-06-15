@@ -20,17 +20,17 @@ public class Calculator {
 
     public void add(int a, int b) {
         hasilInt = a + b;
-        System.out.println(String.format("Hasil penambahan antara %d dan %d adalah %d", a, b, hasilInt));
+        System.out.println(String.format("Hasil dari penambahan antara %d dan %d adalah %d", a, b, hasilInt));
     }
 
     public void subtract(int a, int b) {
         hasilInt = a - b;
-        System.out.println(String.format("Hasil pengurangan antara %d dan %d adalah %d", a, b, hasilInt));
+        System.out.println(String.format("Hasil dari pengurangan antara %d dan %d adalah %d", a, b, hasilInt));
     }
 
     public void multiply(int a, int b) {
         hasilInt = a * b;
-        System.out.println(String.format("Hasil perkalian antara %d dan %d adalah %d", a, b, hasilInt));
+        System.out.println(String.format("Hasil dari perkalian antara %d dan %d adalah %d", a, b, hasilInt));
     }
 
     public void divide(int a, int b) {
@@ -38,7 +38,7 @@ public class Calculator {
             throw new IllegalArgumentException("Cannot divide by zero.");
         }
         hasilDouble = (double) a / b;
-        System.out.println(String.format("Hasil pembagian antara %d dan %d adalah %f", a, b, hasilDouble));
+        System.out.println(String.format("Hasil dari pembagian antara %d dan %d adalah %f", a, b, hasilDouble));
     }
 
     public int getHasilInt() {
