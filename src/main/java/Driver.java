@@ -6,7 +6,7 @@ public class Driver {
 
 		Calculator calc = new Calculator();
 
-		calc.add(10, 4);
+		calc.adder(10, 4);
 		calc.reset();
 
 		calc.subtract(10, 4);
