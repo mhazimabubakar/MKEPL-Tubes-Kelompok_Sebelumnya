@@ -8,9 +8,9 @@ public class CalculatorTest {
 
     @Test
     public void testAdd() {
-        Calculator calc = new Calculator();
-        calc.add(2, 3);
-        assertEquals(5, calc.getHasilInt());
+        Calculator calculator = new Calculator();
+        calculator.add(2, 3);
+        assertEquals(5, calculator.getHasilInt());
     }
 
     @Test
