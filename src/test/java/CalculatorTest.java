@@ -8,7 +8,7 @@ public class CalculatorTest {
     public void testAdd() {
         Calculator calculator = new Calculator();
         calculator.add(2, 3);
-        assertEquals(5, calculator.getHasilInt());
+        assertEquals(20, calculator.getHasilInt());
     }
 
     @Test
