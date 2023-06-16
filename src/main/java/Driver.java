@@ -10,6 +10,26 @@ public class Driver {
 
 		calc.subtract(10, 4);
 		calc.reset();
+		calc.subtract(10, 4);
+		calc.reset();
+		calc.subtract(10, 4);
+		calc.reset();
+		calc.subtract(10, 4);
+		calc.reset();
+		calc.subtract(10, 4);
+		calc.reset();
+		calc.subtract(10, 4);
+		calc.reset();
+		calc.subtract(10, 4);
+		calc.reset();
+		calc.subtract(10, 4);
+		calc.reset();
+		calc.subtract(10, 4);
+		calc.reset();
+		calc.subtract(10, 4);
+		calc.reset();
+		calc.subtract(10, 4);
+		calc.reset();
 
 		calc.multiply(10, 4);
 		calc.reset();
