@@ -9,6 +9,11 @@ public class Driver {
 		calc.reset();
 
 		calc.subtract(10, 4);
+		calc.subtract(10, 4);
+		calc.subtract(10, 4);
+		calc.subtract(10, 4);
+		calc.subtract(10, 4);
+		calc.subtract(10, 4);
 		calc.reset();
 
 		calc.multiply(10, 4);
